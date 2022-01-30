@@ -1,6 +1,6 @@
 # GScraper
 
-This is WPF project to scrape google. It searches google and counts for a particular term in the results. To run in windows, confirm GScraper.Wpf is the startup project and press f5.
+This is WPF project intended to scrape google urls. It searches google and counts for a particular term in the results. To run in windows, confirm GScraper.Wpf is the startup project and press f5.
 
 # If I had more time would have liked to do the following
 * add an assumptions section in the readme file
