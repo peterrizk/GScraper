@@ -1,0 +1,63 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "GScraper.Wpf/1.0.0": {
+        "dependencies": {
+          "GScraper.DataAccess": "1.0.0",
+          "GScraper.ViewModel": "1.0.0"
+        },
+        "runtime": {
+          "GScraper.Wpf.dll": {}
+        }
+      },
+      "GScraper.Common/1.0.0": {
+        "runtime": {
+          "GScraper.Common.dll": {}
+        }
+      },
+      "GScraper.DataAccess/1.0.0": {
+        "dependencies": {
+          "GScraper.Common": "1.0.0"
+        },
+        "runtime": {
+          "GScraper.DataAccess.dll": {}
+        }
+      },
+      "GScraper.ViewModel/1.0.0": {
+        "dependencies": {
+          "GScraper.Common": "1.0.0"
+        },
+        "runtime": {
+          "GScraper.ViewModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GScraper.Wpf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GScraper.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GScraper.DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GScraper.ViewModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

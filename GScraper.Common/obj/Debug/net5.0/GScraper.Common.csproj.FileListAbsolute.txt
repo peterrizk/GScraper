@@ -1,0 +1,12 @@
+C:\Dev\GScraper\GScraper.Common\bin\Debug\net5.0\GScraper.Common.deps.json
+C:\Dev\GScraper\GScraper.Common\bin\Debug\net5.0\GScraper.Common.dll
+C:\Dev\GScraper\GScraper.Common\bin\Debug\net5.0\ref\GScraper.Common.dll
+C:\Dev\GScraper\GScraper.Common\bin\Debug\net5.0\GScraper.Common.pdb
+C:\Dev\GScraper\GScraper.Common\obj\Debug\net5.0\GScraper.Common.csproj.AssemblyReference.cache
+C:\Dev\GScraper\GScraper.Common\obj\Debug\net5.0\GScraper.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\GScraper\GScraper.Common\obj\Debug\net5.0\GScraper.Common.AssemblyInfoInputs.cache
+C:\Dev\GScraper\GScraper.Common\obj\Debug\net5.0\GScraper.Common.AssemblyInfo.cs
+C:\Dev\GScraper\GScraper.Common\obj\Debug\net5.0\GScraper.Common.csproj.CoreCompileInputs.cache
+C:\Dev\GScraper\GScraper.Common\obj\Debug\net5.0\GScraper.Common.dll
+C:\Dev\GScraper\GScraper.Common\obj\Debug\net5.0\ref\GScraper.Common.dll
+C:\Dev\GScraper\GScraper.Common\obj\Debug\net5.0\GScraper.Common.pdb
