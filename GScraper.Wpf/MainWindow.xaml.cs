@@ -14,7 +14,7 @@ namespace GScraper.Wpf
         public MainWindow()
         {
             InitializeComponent();
-            viewModel = new MainViewModel(new SearchDataProvider(), new TermParser());
+            viewModel = new MainViewModel(new SearchDataProvider(), new HtmlParser());
             DataContext = viewModel;
             Loaded += MainWindow_Loaded;
         }

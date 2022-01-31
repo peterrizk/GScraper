@@ -1,6 +1,7 @@
 ﻿using GScraper.Common;
 using GScraper.Common.Model;
 using System;
+using System.Collections.Generic;
 using System.Net.Http;
 using System.Text.Json;
 
@@ -22,7 +23,7 @@ namespace GScraper.DataAccess
             };
         }
 
-        public int Search(string uri, string term, ITermParser termParser)
+        public IList<int> Search(string uri, string term, ITermParser termParser)
         {
             var text = string.Empty;
             using (var response = new HttpClient().GetAsync(uri, HttpCompletionOption.ResponseHeadersRead).Result)
@@ -30,7 +31,7 @@ namespace GScraper.DataAccess
                 response.EnsureSuccessStatusCode();
                 text = response.Content.ReadAsStringAsync().Result;
             }
-            return string.IsNullOrEmpty(text) ? 0 : termParser.Count(text,term);
+            return termParser.Positions(text,term);
         }
     }
 }

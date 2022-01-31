@@ -2,6 +2,8 @@
 using GScraper.Common.Model;
 using GScraper.ViewModel.Command;
 using System;
+using System.Linq;
+using System.Text;
 
 namespace GScraper.ViewModel
 {
@@ -100,7 +102,8 @@ namespace GScraper.ViewModel
 
         public void Search()
         {
-            Results = searchDataProvider.Search(Uri,CountTerm,termParser).ToString();
+            Results = searchDataProvider.Search(Uri,CountTerm,termParser)
+                .Aggregate(new StringBuilder(), (sb,i)=> sb.Append($"{i} "), sb => sb.ToString());
             RaisePropertyChanged(nameof(Results));
         }
 
