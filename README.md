@@ -9,3 +9,4 @@ This is WPF project intended to scrape google urls. It searches google and count
 * add an in memory cache for the http calls
 * add a polly circuit breaker for the http calls
 * handle error messages on the screen
+* use an xml parser to extract all the cite tags, and compute the rankings
